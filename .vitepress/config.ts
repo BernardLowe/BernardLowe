@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Welcome to Bernard's personal blog",
   description: "Bernard's personal blog",
+  base: "https://zhouxun.me",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
