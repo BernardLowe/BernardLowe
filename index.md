@@ -4,22 +4,15 @@ layout: home
 
 hero:
   name: "Welcome to Bernard's personal blog"
-  text: "Bernard's personal blog"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Teaching
+    details: 《DApp Design & Development》《Distributed Computing & Storage》《Blockchain System Design & Development》
+  - title: Research
+    details: Distributed storage algorithms, such as Kademlia, Coral DSHT, etc.
+  - title: Project
+    details: Architecture Design of Large Software System, including Blockchain System and Distributed Storage System
+  - title: Plan
+    details: Explore the combination of distributed storage and cryptography
 ---
 
