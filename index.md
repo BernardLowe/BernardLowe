@@ -7,9 +7,9 @@ hero:
 
 features:
   - title: Teaching
-    details: 《DApp Design & Development》《Distributed Computing & Storage》《Blockchain System Design & Development》
+    details: 《DApp Design & Development》<br/>《Distributed Computing & Storage》<br/>《Blockchain System Design & Development》
   - title: Research
-    details: Distributed storage algorithms, such as Kademlia, Coral DSHT, etc.
+    details: Distributed storage algorithms, such as Kademlia, Coral DSHT, etc.<br/>
   - title: Project
     details: Architecture Design of Large Software System, including Blockchain System and Distributed Storage System
   - title: Plan
