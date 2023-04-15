@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Welcome to Bernard's personal blog",
   description: "Bernard's personal blog",
   base: "/",
+  srcDir: "docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -12,18 +13,18 @@ export default defineConfig({
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Examples',
+    //     items: [
+    //       { text: 'Markdown Examples', link: '/docs/markdown-examples' },
+    //       { text: 'Runtime API Examples', link: '/docs/api-examples' }
+    //     ]
+    //   }
+    // ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/bernardlowe' }
     ]
   }
 })
