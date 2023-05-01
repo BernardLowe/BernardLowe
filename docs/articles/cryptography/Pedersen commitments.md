@@ -76,7 +76,7 @@ func GenerateCommitments(m *big.Int) *Commitments {
 ```
 
 
-### Homomorphic
+### Homomorphic property 
 
 Notably, the Pedersen commitment is homomorphic. In fact, the Pedersen commitment is an example of a homomorphic commitment scheme.
 
