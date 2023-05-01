@@ -15,4 +15,3 @@ features:
   - title: Plan
     details: Explore the combination of distributed storage and cryptography
 ---
-
