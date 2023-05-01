@@ -34,7 +34,7 @@ g^(m1-m2) * h^(r1-r2) ≡ 1 mod p
 
 Since g and h are generators of a large prime order group, they are primitive elements modulo p, which means that the only solution to this equation is for both exponents to be zero. But this is impossible since m1 ≠ m2. Therefore, the binding property is satisfied.
 
-Here is an example that generates a commitments:
+Here is an example that generates commitments:
 ```
 
 package pedersen_commitments
@@ -82,7 +82,9 @@ Notably, the Pedersen commitment is homomorphic. In fact, the Pedersen commitmen
 
 In the Pedersen commitment, the commitment for a value m with random value r is calculated as:
 
-```C = g^m * h^r mod p```
+```
+C = g^m * h^r mod p
+```
 
 where g and h are arbitrary generators of a group of prime order p.
 
@@ -105,7 +107,7 @@ Therefore, Commitment(m1+m2, r1+r2) = C1 * C2
 This shows that the Pedersen commitment is homomorphic. By computing the product of two commitments, it is possible to obtain the commitment to the sum of the original two values. Because the homomorphic property holds, it is also possible to manipulate the commitment value without revealing any information about the commitment or the committed values.
 
 
-Here is an example for the homomorphic property:
+Here is an example of the homomorphic property:
 
 ```
 
