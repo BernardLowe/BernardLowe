@@ -30,13 +30,13 @@ g^m * h^r ≡ C mod p
 
 To see that this commitment scheme has the hiding property, note that given C it is difficult to determine m and r because this would require solving the discrete logarithm problem, which is computationally infeasible for large prime numbers.
 
-To see that the scheme has the binding property, suppose someone knows two pairs (m1, r1) and (m2, r2) such that ```m1 ≠ m2``` and ```C = g^m1 * h^r1 = g^m2 * h^r2```. Then, we can construct an equation that equates the two pairs:
+To see that the scheme has the binding property, suppose someone knows two pairs ```(m1, r1)``` and ```(m2, r2)``` such that ```m1 ≠ m2``` and ```C = g^m1 * h^r1 = g^m2 * h^r2```. Then, we can construct an equation that equates the two pairs:
 
 ```
 g^(m1-m2) * h^(r1-r2) ≡ 1 mod p
 ```
 
-Since g and h are generators of a large prime order group, they are primitive elements modulo p, which means that the only solution to this equation is for both exponents to be zero. But this is impossible since m1 ≠ m2. Therefore, the binding property is satisfied.
+Since g and h are generators of a large prime order group, they are primitive elements modulo p, which means that the only solution to this equation is for both exponents to be zero. But this is impossible since ```m1 ≠ m2```. Therefore, the binding property is satisfied.
 
 Here is an example that generates commitments:
 ```
