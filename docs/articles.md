@@ -1,15 +1,15 @@
 <!-- ## Articles -->
 
-### cryptography
+### Cryptography
 
 - [Bullet Proof](./articles/cryptography/Bullet%20Proof.md)
 - [Pedersen commitments](./articles/cryptography/Pedersen%20commitments.md)
 - [Verifiable shuffles](./articles/cryptography/Verifiable%20shuffles.md)
 
-### Mathematics
+<!-- ### Mathematics
 
 - [Linear Algebra](./articles/math/Linear%20Algebra.md)
-
+ -->
 
 ### Distributed System
 
@@ -17,4 +17,4 @@
 - [BitTorrent](./articles/distributed%20system/BitTorrent.md)
 - [Git](./articles/distributed%20system/Git.md)
 
-### Blockchain System
+<!-- ### Blockchain System -->
