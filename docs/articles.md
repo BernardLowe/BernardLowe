@@ -6,10 +6,9 @@
 - [Pedersen commitments](./articles/cryptography/Pedersen%20commitments.md)
 - [Verifiable shuffles](./articles/cryptography/Verifiable%20shuffles.md)
 
-<!-- ### Mathematics
+### Mathematical background of cryptography
 
-- [Linear Algebra](./articles/math/Linear%20Algebra.md)
- -->
+- [Information Theory](./articles/math/Information%20Theory.md)
 
 ### Distributed System
 
