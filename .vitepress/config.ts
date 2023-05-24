@@ -12,6 +12,7 @@ export default defineConfig({
     ['link', { 'ref': 'icon', 'href': '/duck.svg' }],
     ['link', { rel: 'stylesheet', href: '/katex.min.css'}]
   ],
+  lastUpdated: true,
   vue: {
     template: {
       compilerOptions: {
@@ -27,6 +28,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/duck.svg',
+    editLink: {
+      pattern: 'https://github.com/bernardlowe/bernardlowe/edit/main/docs/:path'
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Articles', link: 'articles.md'},
