@@ -9,6 +9,7 @@
 ### Mathematical background of cryptography
 
 - [Information Theory](./articles/math/Information%20Theory.md)
+- [Computational Complexity](./articles/math/Computational%20Complexity.md)
 
 ### Distributed System
 
