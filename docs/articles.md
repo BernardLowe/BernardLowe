@@ -10,6 +10,7 @@
 
 - [Information Theory](./articles/math/Information%20Theory.md)
 - [Computational Complexity](./articles/math/Computational%20Complexity.md)
+- [Number Theory](./articles/math/Number%20Theory.md)
 
 ### Distributed System
 
