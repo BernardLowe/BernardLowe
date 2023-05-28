@@ -34,7 +34,7 @@ a ≡ b(mod n) & b ≡ c(mod n)  =>  a ≡ c(mod n)
 
 ### Euler totient function
 
-### CHiness remainder theorem
+### Chiness remainder theorem
 
 ### Quadratic residue
 
