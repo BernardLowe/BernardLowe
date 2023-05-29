@@ -24,6 +24,10 @@ a ≡ b(mod n) & b ≡ c(mod n)  =>  a ≡ c(mod n)
 
 ### Prime number
 
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. In other words, a prime number is a number that cannot be formed by multiplying two smaller natural numbers. The first few prime numbers are 2, 3, 5, 7, 11, and 13.
+
+Prime numbers are fundamentally important in number theory due to the Fundamental Theorem of Arithmetic, which states that every natural number greater than 1 is either a prime number itself or can be factored as a unique product of prime numbers, disregarding the order.
+
 ### Greatest common divisor
 
 ### Modular inverse
