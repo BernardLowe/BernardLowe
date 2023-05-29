@@ -18,7 +18,7 @@ a ≡ b(mod n) & b ≡ c(mod n)  =>  a ≡ c(mod n)
 - **Advanced operations**
 ```
     if a ≡ b(mod n) & c ≡ d(mod n):
-        ac ≡ d(mod n)
+        ac ≡ bd(mod n)
 ```
 
 
