@@ -30,6 +30,37 @@ Prime numbers are fundamentally important in number theory due to the Fundamenta
 
 ### Greatest common divisor
 
+Two numbers are relatively prime if they have no common factors except 1. Written as ```gcd(a, n) = 1```.
+A prime number is relatively prime to any number other than its multiple.
+
+The easiest way to calculating gcd of two numbers is the Euclid's algorithm.
+
+```
+func gcd(x, y uint) uint {
+	g := y
+	for x > 0 {
+		g = x
+		x = y % x
+		y = g
+	}
+	return g
+}
+```
+
+We can easily infer that a gcd array of n numbers.
+```
+func multiple_gcd(a []uint) uint {
+	g := a[0]
+	for i := 1; i < len(a); i++ {
+		g = gcd(g, a[i])
+		if g == 1 {
+			return g
+		}
+	}
+	return g
+}
+```
+
 ### Modular inverse
 
 ### Euclidean algorithm
