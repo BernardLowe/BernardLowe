@@ -63,6 +63,18 @@ func multiple_gcd(a []uint) uint {
 
 ### Modular inverse
 
+In mathematics, the modular multiplicative inverse of an integer "a" is an integer "b" such that the product "ab" is congruent to 1 with respect to the modulus "m". Here, "b" is said to be the modular multiplicative inverse of "a" modulo "m".
+
+The modular inverse of "a" modulo "m" exists if and only if "a" and "m" are coprime (i.e., the greatest common divisor of "a" and "m" is 1). If the modular multiplicative inverse of "a" modulo "m" exists, the operation of division by "a" modulo "m" can be defined as multiplication by the inverse.
+
+Notation-wise, this is often written as "b ≡ a⁻¹ (mod m)", or sometimes as "a*b ≡ 1 (mod m)".
+
+Here's how you can compute it:
+
+Extended Euclidean Algorithm: This algorithm can be used to find the greatest common divisor of "a" and "m", and to express this greatest common divisor as a linear combination of "a" and "m". If "a" and "m" are coprime, then the coefficient of "a" in this linear combination is the modular multiplicative inverse of "a" modulo "m".
+
+Fermat's Little Theorem: This theorem states that if "p" is a prime number and "a" is an integer that is not divisible by "p", then "a^(p-1) ≡ 1 (mod p)". If we multiply both sides of this congruence by "a^(-1)", we get "a^(p-2) ≡ a^(-1) (mod p)", which gives us the modular multiplicative inverse of "a" modulo "p".
+
 ### Euclidean algorithm
 
 ### Fermat's little theorem
