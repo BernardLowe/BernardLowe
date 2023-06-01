@@ -75,8 +75,6 @@ Extended Euclidean Algorithm: This algorithm can be used to find the greatest co
 
 Fermat's Little Theorem: This theorem states that if "p" is a prime number and "a" is an integer that is not divisible by "p", then ```a^(p-1) ≡ 1 (mod p)```. If we multiply both sides of this congruence by "a^(-1)", we get ```a^(p-2) ≡ a^(-1) (mod p)```, which gives us the modular multiplicative inverse of "a" modulo "p".
 
-### Euclidean algorithm
-
 ### Fermat's little theorem
 
 ### Euler totient function
