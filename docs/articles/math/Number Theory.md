@@ -77,6 +77,22 @@ Fermat's Little Theorem: This theorem states that if "p" is a prime number and "
 
 ### Fermat's little theorem
 
+Fermat's Little Theorem is a fundamental theorem in number theory that was first proposed by Pierre de Fermat in 1640. The theorem is especially important in the field of cryptography and the testing of large prime numbers.
+
+Fermat's Little Theorem states that if p is a prime number and a is an integer not divisible by p, then:
+
+```a^(p-1) ≡ 1 (mod p)```
+
+In other words, a^(p-1) leaves a remainder of 1 when divided by p.
+
+There is an extended form of the theorem which states that for any integer a and prime p:
+
+```a^p ≡ a (mod p)```
+
+This means that if you raise a to the power of p, the result is equivalent to a modulo p.
+
+Fermat's Little Theorem is used in the RSA algorithm (a widely used public key cryptography algorithm), in the proof of the AKS primality testing algorithm, and in the creation of pseudorandom number generators. It's also a fundamental result in the study of number theory.
+
 ### Euler totient function
 
 ### Chiness remainder theorem
