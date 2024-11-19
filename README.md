@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+- 🔭 I’m currently working on 
+- 🌱 I’m currently learning functional analysis
+- 👯 I’m looking to collaborate on distributed storage system & access control
+- 💬 Ask me about blockchain
+- 📫 How to reach me: vitalikzhou@gmail.com
